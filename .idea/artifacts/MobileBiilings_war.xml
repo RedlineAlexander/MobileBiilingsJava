@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MobileBiilings:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MobileBiilings</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springSecurityAdvanced.war">
+      <element id="artifact" artifact-name="MobileBiilings:war exploded" />
+    </root>
+  </artifact>
+</component>
